@@ -1,0 +1,28 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "Product API",
+        "title": "Go Expert API",
+        "termsOfService": "http://swagger.io/terms/",
+        "contact": {
+            "name": "Fillipi Nascimento",
+            "url": "https://fillipinascimento.com",
+            "email": "administrator@fillipinascimento.com"
+        },
+        "license": {
+            "name": "Fillipi Nascimento License",
+            "url": "https://fillipinascimento.com"
+        },
+        "version": "1.0"
+    },
+    "host": "localhost:9090",
+    "basePath": "/",
+    "paths": {},
+    "securityDefinitions": {
+        "ApiKeyAuth": {
+            "type": "apiKey",
+            "name": "Authorization",
+            "in": "header"
+        }
+    }
+}

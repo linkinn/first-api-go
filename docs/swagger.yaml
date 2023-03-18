@@ -1,0 +1,21 @@
+basePath: /
+host: localhost:9090
+info:
+  contact:
+    email: administrator@fillipinascimento.com
+    name: Fillipi Nascimento
+    url: https://fillipinascimento.com
+  description: Product API
+  license:
+    name: Fillipi Nascimento License
+    url: https://fillipinascimento.com
+  termsOfService: http://swagger.io/terms/
+  title: Go Expert API
+  version: "1.0"
+paths: {}
+securityDefinitions:
+  ApiKeyAuth:
+    in: header
+    name: Authorization
+    type: apiKey
+swagger: "2.0"

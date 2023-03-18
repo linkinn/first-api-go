@@ -1,0 +1,18 @@
+POST http://localhost:9090/users
+Content-Type: application/json
+
+{
+  "name": "Fillipi Nascimento",
+  "email": "fillipi@gmail.com",
+  "password": "mudar!123"
+}
+
+###
+
+POST http://localhost:9090/users/generate_token
+Content-Type: application/json
+
+{
+  "email": "fillipi@gmail.com",
+  "password": "mudar!123"
+}

@@ -1,0 +1,29 @@
+POST http://localhost:9090/products
+Content-Type: application/json
+
+{
+  "name": "Lenovo l200",
+  "price": 1200.00
+}
+
+###
+
+GET http://localhost:9090/products/63dd8c45-ca1f-4bf0-8038-06db7b2b9afb
+
+###
+
+GET http://localhost:9090/products
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzkxNzc0MjIsInN1YiI6ImNkYjk2YjM0LWFkMGYtNDhmOS1iOTc5LTk1YzY3MDdkYjRkNCJ9.GJ3gBQOubUEsUxzwPlIzzf2ct8HapUIdW1BVphZaLUs
+
+###
+
+PUT http://localhost:9090/products/63dd8c45-ca1f-4bf0-8038-06db7b2b9afb
+Content-Type: application/json
+
+{
+  "name": "Macbook PRO"
+}
+
+###
+
+DELETE http://localhost:9090/products/63dd8c45-ca1f-4bf0-8038-06db7b2b9afb
